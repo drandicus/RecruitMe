@@ -1,0 +1,145 @@
+
+/* Space out content a bit */
+body {
+  padding:20px;
+  background-color:#E2E5CD;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
+h5 {
+  font-family: 'Raleway', sans-serif;
+}
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor:pointer;
+  color:inherit
+}
+
+a:hover {
+  text-decoration: none;
+  cursor:pointer;
+  color:inherit
+}
+
+.header-cont {
+  margin-top:30px;
+}
+
+.header-title {
+  font-size: 4em;
+  font-weight: bold
+}
+
+.header-nav {
+  padding-top:30px
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header-nav ul li {
+  font-size:1.5em;
+  display:inline;
+}
+
+.head {
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:10px;
+  background-color:#B9BDB5;
+}
+
+.wrapper {
+  position:absolute;
+  left:0px;
+  padding:40px 20px;
+  margin-top:30px;
+  background-color:#C9DBC8;
+}
+
+.loggedIn{
+  font-size:3em;
+  text-align:center;
+  margin-bottom:100px;
+}
+
+.main-lead {
+}
+.main-promo {
+  text-align: left;
+  font-size:3em;
+  font-weight:bold;
+}
+
+.main-lecture{
+  margin-top:20px;
+  font-size:1em;
+}
+
+
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+
+.panel-interviews {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+.admin-session-item {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.add {
+  padding-bottom: 30px;
+}
+
+.add-nav {
+margin-top: 40px;
+}
+
+.add-item:hover {
+cursor: pointer;
+}
+
+.add-item:active {
+background-color: #948B8C;
+}
+
+.add-mods {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
