@@ -44,6 +44,7 @@ angular
         $rootScope.$on("$routeChangeStart", function (evt, next, current) {
             if (next.authenticated && !$rootScope.auth.loggedIn) {
                 $location.path('/');
+                alert('Restricted Webpage, Please Log in');
             }
         });
     }]);
